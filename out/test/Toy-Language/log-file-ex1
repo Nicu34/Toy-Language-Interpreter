@@ -1,0 +1,362 @@
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-1 having varFileId fileMultipleIntegers
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-1 having varFileId fileMultipleIntegers
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileMultipleIntegers saving in variable variable
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileMultipleIntegers saving in variable variable
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+variable --> 3
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+variable --> 3
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+
+Symbol Table:
+fileMultipleIntegers --> 1
+variable --> 3
+
+Out:
+3
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-1 having varFileId fileMultipleIntegers
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-1 having varFileId fileMultipleIntegers
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileMultipleIntegers saving in variable variable
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileMultipleIntegers saving in variable variable
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+variable --> 3
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileMultipleIntegers --> 1
+variable --> 3
+
+Out:
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( Open R File test-1 having varFileId fileMultipleIntegers ; ( Read file having varFileId fileMultipleIntegers saving in variable variable ; print( variable ) ) )
+ExeStack:
+
+Symbol Table:
+fileMultipleIntegers --> 1
+variable --> 3
+
+Out:
+3
+
+File Table:
+1 --> test-1
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+

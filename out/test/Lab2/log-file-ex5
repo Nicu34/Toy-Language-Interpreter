@@ -1,0 +1,356 @@
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+( new ( variable, 10 ) ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 1
+
+Out:
+1
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+( new ( variable, 10 ) ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 1
+
+Out:
+1
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+( new ( variable, 10 ) ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+( new ( variable, 10 ) ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+( new ( variable, 10 ) ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+new ( variable, 10 )
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+
+Id: 5
+Original program: ( new ( variable, 10 ) ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 1
+
+Out:
+1
+
+File Table:
+
+Heap Table:
+1 --> 10
+
+=================================================================================
+

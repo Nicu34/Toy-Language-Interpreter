@@ -1,0 +1,4483 @@
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } )
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+( start = 0 ; end = 10 )
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = 0
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+end = 10
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 0
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 1
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 2
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 3
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 3
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 4
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 4
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 5
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 5
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 6
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 6
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 7
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 7
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 8
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 8
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+start = start+1
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 9
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+startValue = start
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 9
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+while ( start < end ) { ( start = start+1 ; startValue = start ) }
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+print( startValue )
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 4
+Original program: ( ( ( start = 0 ; end = 10 ) ; while ( start < end ) { ( start = start+1 ; startValue = start ) } ) ; print( startValue ) )
+ExeStack:
+
+Symbol Table:
+start --> 10
+end --> 10
+startValue --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+

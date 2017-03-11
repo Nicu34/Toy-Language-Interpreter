@@ -1,0 +1,684 @@
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 2
+
+Out:
+
+File Table:
+2 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 2
+
+Out:
+
+File Table:
+2 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 2
+
+Out:
+
+File Table:
+2 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 2
+
+Out:
+
+File Table:
+2 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 2
+variable --> 34
+
+Out:
+
+File Table:
+2 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 2
+variable --> 34
+
+Out:
+
+File Table:
+2 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+
+Symbol Table:
+fileOneInteger --> 2
+variable --> 34
+
+Out:
+34
+
+File Table:
+2 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+34
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+34
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Open R File test-2 having varFileId fileOneInteger
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+Read file having varFileId fileOneInteger saving in variable variable
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+
+Id: 2
+Original program: ( Open R File test-2 having varFileId fileOneInteger ; ( Read file having varFileId fileOneInteger saving in variable variable ; print( variable ) ) )
+ExeStack:
+
+Symbol Table:
+fileOneInteger --> 1
+variable --> 34
+
+Out:
+34
+
+File Table:
+1 --> test-2
+
+Heap Table:
+
+=================================================================================
+

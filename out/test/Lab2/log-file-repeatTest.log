@@ -1,0 +1,1429 @@
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) )
+print( v*10 )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) )
+print( v*10 )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 )
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 )
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = 0
+repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = 0
+repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 )
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 )
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+ForkStatement{statement=( print( v ) ; v = v-1 )}
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+ForkStatement{statement=( print( v ) ; v = v-1 )}
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 3
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+( print( v ) ; v = v-1 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 3
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+( print( v ) ; v = v-1 )
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 3
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+print( v )
+v = v-1
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 1
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 3
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+print( v )
+v = v-1
+
+Symbol Table:
+v --> 0
+
+Out:
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+ForkStatement{statement=( print( v ) ; v = v-1 )}
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 3
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+v = v-1
+
+Symbol Table:
+v --> 0
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+ForkStatement{statement=( print( v ) ; v = v-1 )}
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 3
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+v = v-1
+
+Symbol Table:
+v --> 0
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 3
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+
+Symbol Table:
+v --> -1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 5
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+( print( v ) ; v = v-1 )
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 5
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+( print( v ) ; v = v-1 )
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 5
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+print( v )
+v = v-1
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 5
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+print( v )
+v = v-1
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+ForkStatement{statement=( print( v ) ; v = v-1 )}
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 5
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+v = v-1
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+ForkStatement{statement=( print( v ) ; v = v-1 )}
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 5
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+v = v-1
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 5
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+
+Symbol Table:
+v --> 0
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 7
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+( print( v ) ; v = v-1 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+v = v+1
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 7
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+( print( v ) ; v = v-1 )
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 7
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+print( v )
+v = v-1
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+while ( v == 3 ) { ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) }
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 7
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+print( v )
+v = v-1
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 7
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+v = v-1
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 7
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+v = v-1
+
+Symbol Table:
+v --> 2
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( x = 1 ; y = 2 )
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 7
+Original program: ( print( v ) ; v = v-1 )
+ExeStack:
+
+Symbol Table:
+v --> 1
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( x = 1 ; y = 2 )
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+x = 1
+y = 2
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+x = 1
+y = 2
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+y = 2
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+y = 2
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+( z = 3 ; w = 4 )
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+z = 3
+w = 4
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+z = 3
+w = 4
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+w = 4
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+z --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+w = 4
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+z --> 3
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+z --> 3
+w --> 4
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+print( v*10 )
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+z --> 3
+w --> 4
+
+Out:
+0
+1
+2
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+
+Id: 1
+Original program: ( ( ( v = 0 ; repeat ( ForkStatement{statement=( print( v ) ; v = v-1 )} ; v = v+1 ) until v == 3 ) ; ( ( x = 1 ; y = 2 ) ; ( z = 3 ; w = 4 ) ) ) ; print( v*10 ) )
+ExeStack:
+
+Symbol Table:
+v --> 3
+x --> 1
+y --> 2
+z --> 3
+w --> 4
+
+Out:
+0
+1
+2
+30
+
+File Table:
+
+Heap Table:
+
+Latch table:
+
+=================================================================================
+

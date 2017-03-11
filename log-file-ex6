@@ -1,0 +1,6489 @@
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} )
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( v = 10 ; new ( a, 22 ) )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+v = 10
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+new ( a, 22 )
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )}
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+( print( v ) ; print( Read Heap ( a ) ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+print( Read Heap ( a ) )
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 6
+Original program: ( ( ( v = 10 ; new ( a, 22 ) ) ; ForkStatement{statement=( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )} ) ; ( print( v ) ; print( Read Heap ( a ) ) ) )
+ExeStack:
+
+Symbol Table:
+v --> 10
+a --> 2
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+( Write Heap ( a -> 30 ) ; v = 32 )
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+Write Heap ( a -> 30 )
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 22
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+v = 32
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 10
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( v )
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+print( Read Heap ( a ) )
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+x = 66
+
+Symbol Table:
+a --> 2
+v --> 32
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+
+Id: 8
+Original program: ( ( ( ( Write Heap ( a -> 30 ) ; v = 32 ) ; print( v ) ) ; print( Read Heap ( a ) ) ) ; x = 66 )
+ExeStack:
+
+Symbol Table:
+a --> 2
+v --> 32
+x --> 66
+
+Out:
+10
+22
+32
+30
+
+File Table:
+
+Heap Table:
+2 --> 30
+
+=================================================================================
+

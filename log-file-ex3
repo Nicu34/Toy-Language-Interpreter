@@ -1,0 +1,760 @@
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+( variable = 10*5 ; print( variable ) )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+variable = 10*5
+print( variable )
+
+Symbol Table:
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+print( variable )
+
+Symbol Table:
+variable --> 50
+
+Out:
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
+Id: 3
+Original program: ( variable = 10*5 ; print( variable ) )
+ExeStack:
+
+Symbol Table:
+variable --> 50
+
+Out:
+50
+
+File Table:
+
+Heap Table:
+
+=================================================================================
+
